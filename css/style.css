@@ -177,7 +177,7 @@ img {
 }
 
 #image6, #image11, #image12 {
-  border: px solid black;
+  border: 10px solid black;
   margin: 10px;
   width: 400px;
   height: 350px;
@@ -232,6 +232,11 @@ img {
     grid-template-areas:
       "item1 item2"
       "item3 item4";
+  }
+
+  #image6, #image11, #image12 {
+    width: 450px;
+    height: 350px;
   }
 
   header {
