@@ -155,7 +155,7 @@ img {
 
 .club > header {
   background-color: white;
-  border: solid 2px black;
+  border: solid 3px black;
   padding-top: 20px;
   padding-bottom: 20px;
   text-align: center;
@@ -267,7 +267,7 @@ img {
 @media screen and (min-width: 940px) {
 
   p {
-    padding: 0 100px;
+    padding: 0 150px;
     text-align: center;
   }
 
