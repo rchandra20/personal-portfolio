@@ -186,13 +186,13 @@ img {
 
 .button {
   background-color: white;
-  border: 1px solid black;
+  border: 3px solid black;
   color: black;
   padding: 10px 10px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
   margin: 4px 2px;
 }
 
