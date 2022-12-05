@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <link rel="shortcut icon" type="image/png" href="images/logo_icon.png"/>
+    <link rel="shortcut icon" type="image/png" href="images/logo.png"/>
     <link rel="stylesheet" type="text/css" href="css/html5reset.css">
     <link rel="stylesheet" type="text/css" href="css/starter.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -22,11 +22,8 @@
     </nav>
   </header>
 
-<main class="about" id="skip">
-   <h1>Educational Background</h1>
-
-   <img id="image17" src="images/um_seal.png" alt="University of Michigan Seal"/>
-   <img id="image18" src="images/cs.jpg" alt="Fancy technological graphic"/>
+<main class="college" id="skip">
+   <h1 id="animate">My Education</h1>
 
    <p>
       I am currently pursuing a B.S.E. in Computer Science from the University of Michigan Ann Arbor
@@ -34,22 +31,63 @@
       to my technical skillset. 
    </p>
 
-   <h1> Extracurriculars</h1>
+   <h2 id = "gallery">
+      <div class="gallery"> 
+         <img id="image17" src="images/um_seal.png" alt="University of Michigan Seal"/>
+         <img id="image18" src="images/cs.jpg" alt="Fancy technological graphic"/>
+      </div>
+   </h2>
 
-   <h2>Michigan Hackers </h2>
+   <h2> Activities </h2>
+
+   <p>
+      There are two main software organizations at college that I am a part of. Michigan EcoData
+      and Michigan Hackers. Both clubs give me the opportunity to explore different 
+      technologies outside of the classroom in a collaborative environment.
+   </p>
+
+   <div class="gallery_flex" id="college">
       <img id="image19" src="images/michigan_hackers.jfif" alt="Michigan Hackers Logo" />
-      <img id="image20" src="images/open_source.png" alt="Open Source Logo" />
-   <h2> Technologies Used</h2>
-      <img id="image21" src="images/cplusplus.png" alt="C++ logo"/>
-      <img id="image22" src="images/git.png" alt="Git logo"/>
-      <img id="image23" src="images/github.png" alt="GitHub logo"/>
-
-   <h2>Michigan EcoData </h2>
       <img id="image24" src="images/michigan_ecodata.jfif" alt="Michigan EcoData Logo" />
-   <h2> Technologies Used</h2>
-      <img id="image25" src="images/python.png" alt="Python logo"/>
-      <img id="image26" src="images/tensorflow.png" alt="TensorFlow logo"/>
+   </div>
 
+   <h2>My Involvement</h2>
+      <div class="clubs">
+         <div class="club" id="club1">
+            <header><h3>Michigan Hackers</h3></header>
+            <ul>
+              <li>Involved with a team that is focused on open source projects
+                  and how to contribute to them. </li>
+              <li>I mainly use C++, Git, and GitHub to contribute to various
+                  opens source projects.
+              </li>
+            </ul>
+            <form action="https://michhackers.com/">
+              <input type="submit" value="More Info" />
+           </form>
+          </div>
+        <div class="club" id="club2">
+          <header><h3>Michigan EcoData</h3></header>
+          <ul>
+            <li>Involved with a team that analyzes weather data from the 
+               UCI machine learning repository </li>
+            <li>I mainly use Python and various Python libraries such as TensorFlow, numpy, 
+               and matplotlib to analyze data.</li>
+          </ul>
+          <form action="https://umecodata.github.io/website/index.html">
+            <input type="submit" value="More Info" />
+         </form>
+        </div>
+      </div>
+
+   <h2> Technologies </h2>
+      <div class="gallery_flex" id="college">
+         <img id="image21" src="images/cplusplus.png" alt="C++ logo"/>
+         <img id="image22" src="images/git.png" alt="Git logo"/>
+         <img id="image23" src="images/github.png" alt="GitHub logo"/>
+         <img id="image25" src="images/python.png" alt="Python logo"/>
+         <img id="image26" src="images/tensorflow.png" alt="TensorFlow logo"/>
+      </div>
 </main>
 
    <footer>
