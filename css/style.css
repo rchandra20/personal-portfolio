@@ -1,4 +1,4 @@
-@keyframes animate {
+@keyframes increasesize {
   0% {
     transform: scale(1);
   }
@@ -10,6 +10,17 @@
   }
 }
 
+@keyframes fadein {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+
 h1{
   font-size: 2em;
   text-align: center;
@@ -17,7 +28,7 @@ h1{
 }
 
 #animate {
-  animation-name: animate;
+  animation-name: fadein;
   animation-duration: 3s;
   animation-iteration-count: 1;
 }
@@ -29,13 +40,13 @@ h2{
 }
 
 h3 {
-  font-size: 1em;
+  font-size: 1.4em;
   text-align: center;
   padding: 5px;
 }
 
 p {
-  padding: 0 30px;
+  padding: 0 5px;
   text-align: center;
 }
 
@@ -74,7 +85,7 @@ body {
   background-color: #FAF9F6;
   margin: 0;
   padding: 0;
-  font-size: 16pt; /* test for this! Make all sizes em or rem */
+  font-size: 1.4em;
 }
   
 header {
@@ -88,14 +99,8 @@ header {
 footer{
   background-color: black;
   color: white;
-  padding: 40px;
+  padding: 65px;
   text-align: center;
-}
-  
-#logo {
-  animation-name: logoanimate;
-  animation-duration: 5s;
-  animation-iteration-count: 1;
 }
 
 .nav_links {
@@ -122,10 +127,10 @@ a.current:link, a.current:visited {
 }
 
 img {
-  border: 6px solid black;
+  border: 8px solid black;
   margin: 10px;
-  width: 175px;
-  height: 175px;
+  width: 190px;
+  height: 190px;
   border-radius: 25px;
 }
 
@@ -162,7 +167,7 @@ img {
 }
 
 #club2 > header {
-  background-color: green;
+  background-color: #4CFF05;
 }
 
 .club li {
@@ -172,15 +177,19 @@ img {
 }
 
 #image6, #image11, #image12 {
-  border: 6px solid black;
+  border: px solid black;
   margin: 10px;
-  width: 500px;
-  height: 400px;
+  width: 400px;
+  height: 350px;
   border-radius: 25px;
 }
 
 
 @media screen and (min-width: 700px) {
+
+  #animate {
+    animation-name: increasesize;
+  }
 
   p {
     padding: 0 50px;
@@ -220,11 +229,11 @@ img {
 
   .clubs {
     flex-direction: row;
-    flex-basis: 200px;
+    flex-basis: 275px;
   }
 
   .club {
-      flex-basis: 200px;
+      flex-basis: 275px;
       z-index: 0;
   }
   
