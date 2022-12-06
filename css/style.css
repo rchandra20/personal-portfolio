@@ -138,7 +138,8 @@ img {
   display: grid; 
   grid-gap: 30px;
   align-items: center;
-  justify-items: center; 
+  justify-content: center;
+
 }
 
 .clubs {
@@ -223,15 +224,21 @@ img {
 
     padding: 20px;
   }
-
+  .item1 { grid-area: i1; }
+  .item2 { grid-area: i2; }
+  .item3 { grid-area: i3; }
+  .item4 { grid-area: i4; }
+  .item5 { grid-area: i5; }
+  .item6 { grid-area: i6; }
+  .item7 { grid-area: i7; }
+  .item8 { grid-area: i8; }
+  .item9 { grid-area: i9; }
+ 
   .container {
-    display: grid; 
-    grid-gap: 30px;
-    align-items: center;
-    justify-items: center; 
     grid-template-areas:
-      "item1 item2"
-      "item3 item4";
+      "i1 i2 i3"
+      "i4 i5 i6"
+      "i7 i8 i9";
   }
 
   #image6, #image11, #image12 {
@@ -272,7 +279,13 @@ img {
   }
 
   .container {
-    grid-template-areas: "item1 item2 item3 item4";
+    grid-template-columns: auto auto auto auto;
+    grid-template-areas:
+    "i3 i1 i4 ."
+    ". i6 i7 i5"
+    "i2 i9 i8 ."
+    ;
+
   }
 
   .clubs {
