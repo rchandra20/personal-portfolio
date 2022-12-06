@@ -281,9 +281,9 @@ img {
   .container {
     grid-template-columns: auto auto auto auto;
     grid-template-areas:
-    "i3 i1 i4 ."
-    ". i6 i7 i5"
-    "i2 i9 i8 ."
+    "i1 i2 i3 ."
+    ". i4 i5 i6"
+    "i7 i8 i9 ."
     ;
 
   }
